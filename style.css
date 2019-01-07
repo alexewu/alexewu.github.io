@@ -1,0 +1,50 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    
+}
+
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+.main-nav li
+{
+    display: inline-block;
+}
+
+.main-nav li a
+{
+    color: firebrick;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Futura", sans-serif;
+    font-size: 15px;
+}
+
+.main-nav li.active a
+{
+    border: 1px solid black;
+    
+}
+
+.main-nav li a:hover{
+    border: 1px solid black;
+}
+
+.logo img
+{
+    width: 200px;
+    height: auto;
+    float: left;
+    margin-top: -30px;
+}
