@@ -33,7 +33,7 @@ header
 
 .main-nav li.active a
 {
-    border: 1px solid black;
+    border: 2px solid black;
     
 }
 
@@ -43,10 +43,20 @@ header
 
 .logo img
 {
-    width: 250px;
-    height: auto;
-    float: left;
+    width: 350px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: -30px;
+}
+
+.propic img
+{
+    width: 200px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 130px;
 }
 
 body
@@ -80,7 +90,7 @@ h1
 .button
 {
     margin-top: 30px;
-    margin-left: 500px;
+    margin-left: 682px;
 }
 
 .btn
