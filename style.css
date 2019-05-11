@@ -120,3 +120,8 @@ h1
     background-color: lightcoral;
     transition: all 0.5s ease-in;
 }
+
+#footer
+{
+    vertical-align: baseline;
+}
