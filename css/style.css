@@ -90,3 +90,44 @@ h1
     font-family: monospace;
     margin: auto;
 }
+
+/*--------EXTRA--------*/
+.logo img
+{
+    width: 350px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -30px;
+}
+
+.propic
+{
+    width: 250px;
+    height: 380px;
+}
+
+.content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn-one
+{
+    background-color: lightcoral;
+    font-family: "Futura", sans-serif;
+}
+
+.btn-two
+{
+    font-family: "Futura", sans-serif;
+    
+}
+
+.my_name_is_alex
+{
+    width: 200px;
+}
