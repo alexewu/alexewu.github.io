@@ -3,7 +3,7 @@
     var app = angular.module("personalWebsite");
 
     app.component('navbar', {
-        templateUrl: 'navbar.html',
+        templateUrl: 'components/navbar.html',
         controller: 'navbarController'
     });
 
