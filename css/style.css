@@ -4,18 +4,17 @@
     padding: 0;
 }
 
-header
-{
-    
-}
 
+
+
+/* ------NAVIGATION BAR------ */
 .main-nav
 {
-    /* float: right; */
+    border: 2px solid black;
+    border-radius: 2px;
     text-align: center;
     list-style: none;
     margin-top: 30px;
-    margin-right: 50px;
 }
 
 .main-nav li
@@ -35,48 +34,19 @@ header
 .main-nav li.active a
 {
     border: 2px solid black;
-    
 }
 
 .main-nav li a:hover{
     border: 1px solid black;
 }
 
-.logo img
-{
-    width: 350px;
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -30px;
-}
 
-.propic img
-{
-    width: 200px;
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 130px;
-}
 
+
+/* ------TEXT------ */
 body
 {
     font-family: monospace;
-}
-
-.row
-{
-    font-family: monospace;
-    margin: auto;
-}
-
-.hero
-{
-    position: absolute;
-    width: 1700px;
-    margin-left: 0px;
-    margin-top: 100px;
 }
 
 h1
@@ -88,6 +58,11 @@ h1
     margin-top: 275px;
 }
 
+
+
+
+
+/* ------BUTTONS------ */
 .button
 {
     margin-top: 30px;
@@ -105,24 +80,13 @@ h1
     text-transform: uppercase;
 }
 
-.btn-one
-{
-    background-color: lightcoral;
-    font-family: "Futura", sans-serif;
-}
-
-.btn-two
-{
-    font-family: "Futura", sans-serif;
-    
-}
-
 .btn-two:hover{
     background-color: lightcoral;
     transition: all 0.5s ease-in;
 }
 
-#footer
+.row
 {
-    vertical-align: baseline;
+    font-family: monospace;
+    margin: auto;
 }
