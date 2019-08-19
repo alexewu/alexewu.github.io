@@ -14,8 +14,8 @@
 
     function navbarController() {
         var ctrl = this;
-        ctrl.active = "aboutMe"
-
+        ctrl.resume = "active";
+        
         ctrl.$init = function () {
             ctrl.aboutMe = "inactive";
             ctrl.contact = "inactive";
