@@ -14,7 +14,10 @@
 
     function resumeItemController() {
         var ctrl = this;
+
+        ctrl.$onInit = function () {
+            console.log(ctrl.item);
+        }
         
-        console.log(ctrl.item);
     }
 })();
