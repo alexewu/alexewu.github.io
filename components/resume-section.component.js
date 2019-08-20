@@ -13,20 +13,14 @@
     function resumeSectionController($http) {
         var ctrl = this;
 
+        ctrl.$onInit = function () {
+             $http.get('experience.json')
+                .then(function(response) {
+                    ctrl.items = response.data;
+                });
+        }
+       
 
-        $http.get('experience.json')
-        .then(function(response) {
-            ctrl.items = response.data;
-            console.log(response);
-            console.log("success");
-        });
-
-        $http.get('/experience.json')
-        .then(function(response) {
-            ctrl.items = response.data;
-            console.log(response);
-            console.log("success");
-        });
         
     }
 })();

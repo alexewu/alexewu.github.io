@@ -4,7 +4,10 @@
 
     app.component('resumeItem', {
         templateUrl: 'components/resume-item.html',
-        controller: 'resumeItemController'
+        controller: 'resumeItemController',
+        bindings: {
+            item: "@"
+        }
     });
 
     app.controller('resumeItemController', resumeItemController);
@@ -12,6 +15,6 @@
     function resumeItemController() {
         var ctrl = this;
         
-        
+        console.log(ctrl.item);
     }
 })();
