@@ -1,9 +1,29 @@
 <form action="/action_page.php">
-    Your Name:<br>
-    <input type="text" name="name">
-    <br>
-    Message:<br>
-    <input type="text" name="message">
-    <br><br>
-    <input type="submit" value="Submit">
-</form> 
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">Your Name:</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="name" name="name" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="email">Email:</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="email" name="lastname" placeholder="Your email..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="message">Message</label>
+      </div>
+      <div class="col-75">
+        <textarea id="message" name="message" placeholder="Write your message.." style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+    </form>
