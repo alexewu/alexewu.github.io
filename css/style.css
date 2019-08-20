@@ -205,14 +205,10 @@ h1
     margin: 0 auto;
 }
 
-.resume_content
-{
-    width: 70%;
-
-}
-
 .resume_item
 {
+    width: 70%;
+    float: left;
     background-color: #f2f2f2;
     border-top: #f08080;
     border-top-style: solid;
