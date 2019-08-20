@@ -14,10 +14,8 @@
 
     function resumeItemController() {
         var ctrl = this;
+        ctrl.itemJson = angular.fromJson(ctrl.item);
 
-        ctrl.$onInit = function () {
-            ctrl.item = angular.fromJson(ctrl.item);
-        }
         
     }
 })();
