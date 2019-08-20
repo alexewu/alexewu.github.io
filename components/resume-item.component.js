@@ -16,7 +16,7 @@
         var ctrl = this;
 
         ctrl.$onInit = function () {
-            console.log(ctrl.item);
+            ctrl.item = angular.fromJson(ctrl.item);
         }
         
     }
