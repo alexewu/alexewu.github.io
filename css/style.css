@@ -213,9 +213,11 @@ h1
 
 .resume_item
 {
-    float: left;
+    float: right;
     background-color: rgb(201, 201, 201);
     border-top: #f08080;
     border-top-style: solid;
     border-top-width: 8px;
+    padding-left: 50px;
+    margin-bottom: 70px;
 }
