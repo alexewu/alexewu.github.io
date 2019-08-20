@@ -198,3 +198,19 @@ h1
       margin-top: 0;
     }
   }
+
+/*----------- RESUME -------------*/
+.resume_content
+{
+    width: 70%;
+
+}
+
+.resume_item
+{
+    float: left;
+    background-color: rgba(182, 182, 182, 0.685);
+    border-top: #f08080;
+    border-top-style: dotted;
+    border-top-width: 10px;
+}
