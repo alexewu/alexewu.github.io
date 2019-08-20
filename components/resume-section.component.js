@@ -13,8 +13,12 @@
     function resumeSectionController($http) {
         var ctrl = this;
 
-        $http.get('projects.json').then(function(response) {
-            $scope.items = response.data;
-         });
+        ctrl.$init = function () {
+            $http.get('projects.json')
+            .then(function(response) {
+                ctrl.items = response.data;
+            });
+        }
+        
     }
 })();
