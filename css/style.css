@@ -200,6 +200,11 @@ h1
   }
 
 /*----------- RESUME -------------*/
+.resume_header
+{
+    margin: 0 auto;
+}
+
 .resume_content
 {
     width: 70%;
@@ -209,8 +214,8 @@ h1
 .resume_item
 {
     float: left;
-    background-color: rgba(182, 182, 182, 0.685);
+    background-color: rgb(201, 201, 201);
     border-top: #f08080;
-    border-top-style: dotted;
-    border-top-width: 10px;
+    border-top-style: solid;
+    border-top-width: 8px;
 }
