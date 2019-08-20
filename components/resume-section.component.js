@@ -14,14 +14,14 @@
         var ctrl = this;
 
 
-        $http.get('projects.json')
+        $http.get('experience.json')
         .then(function(response) {
             ctrl.items = response.data;
             console.log(response);
             console.log("success");
         });
 
-        $http.get('/projects.json')
+        $http.get('/experience.json')
         .then(function(response) {
             ctrl.items = response.data;
             console.log(response);
