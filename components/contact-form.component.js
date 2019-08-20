@@ -9,7 +9,7 @@
 
     app.controller('contactFormController', contactFormController);
 
-    function formController() {
+    function contactFormController() {
         var ctrl = this;
 
     }
