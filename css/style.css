@@ -130,6 +130,7 @@ h1
     flex-direction: row;
     justify-content: center;
     text-align: center;
+    margin-top: 40px;
 }
 
 .my_name_is_alex
