@@ -4,7 +4,10 @@
 
     app.component('resumeSection', {
         templateUrl: 'components/resume-section.html',
-        controller: 'resumeSectionController'
+        controller: 'resumeSectionController',
+        bindings: {
+            section: "@"
+        }
     });
 
     app.controller('resumeSectionController', resumeSectionController);
@@ -14,7 +17,23 @@
         var ctrl = this;
 
         ctrl.$onInit = function () {
-             $http.get('experience.json')
+            ctrl.jsonFileName = "";
+            switch(ctrl.section)
+            {
+                case "experience":
+                    ctrl.jsonFileName = 'experience.json';
+                    break;
+                case "education":
+                    ctrl.jsonFileName = 'education.json';
+                    break;
+                case "projects":
+                    ctrl.jsonFileName = 'projects.json';
+                    break;
+                default:
+                    break;
+            }
+            
+            $http.get(ctrl.jsonFileName)
                 .then(function(response) {
                     ctrl.items = response.data;
                 });
