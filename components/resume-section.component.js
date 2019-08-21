@@ -15,6 +15,7 @@
 
     function resumeSectionController($http) {
         var ctrl = this;
+        ctrl.resume_item_style = "resume_item";
 
         ctrl.$onInit = function () {
             ctrl.jsonFileName = "";

@@ -1,4 +1,4 @@
-<div>
+<div class="resume_section">
     <h2 class="resume_header">{{ $ctrl.sectionName }}.</h2>
-    <resume-item class="resume_item" ng-repeat="item in $ctrl.items" item="{{item}}"></resume-item>
+    <resume-item class="{{$ctrl.resume_item_style}}" ng-repeat="item in $ctrl.items" item="{{item}}"></resume-item>
 </div>
