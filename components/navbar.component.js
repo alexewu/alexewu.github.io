@@ -24,14 +24,19 @@
         switch(ctrl.active) {
             case "aboutMe":
                 ctrl.aboutMe = "active";
+                break;
             case "contact":
                 ctrl.contact = "active";
+                break;
             case "resume":
                 ctrl.resume = "active";
+                break;
             case "hobbies":
                 ctrl.hobbies = "active";
+                break;
             case "projects":
                 ctrl.projects = "active";
+                break;
             default:
                 break;
         }
