@@ -20,11 +20,14 @@
         ctrl.contact = "inactive";
         ctrl.hobbies = "inactive";
         ctrl.projects = "inactive";
+        ctrl.resume = "inactive";
         switch(ctrl.active) {
             case "aboutMe":
                 ctrl.aboutMe = "active";
             case "contact":
                 ctrl.contact = "active";
+            case "resume":
+                ctrl.resume = "active";
             case "hobbies":
                 ctrl.hobbies = "active";
             case "projects":
