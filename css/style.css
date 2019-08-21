@@ -202,36 +202,38 @@ h1
 /*----------- RESUME -------------*/
 .resume_header_1
 {
-    text-align: center;
-    background-color: darkcyan;
+    text-align: left;
     margin-bottom: 40px;
     font-size: 35;
     padding: 11;
-    width: 70%;
-    border-radius: 40px;
+    width: 100%;
+    border-bottom-style: dotted;
+    border-bottom-width: 10px;
+    border-color: #c86464;
 }
 
 .resume_header_2
 {
-    float: right;
-    text-align: center;
-    background-color: rgb(76, 146, 49);
+    text-align: right;
     margin-bottom: 40px;
     font-size: 35;
     padding: 11;
-    width: 70%;
-    border-radius: 40px;
+    width: 100%;
+    border-bottom-style: dotted;
+    border-bottom-width: 10px;
+    border-color: rgb(76, 146, 49);
 }
 
 .resume_header_3
 {
-    text-align: center;
-    background-color: rgb(44, 102, 179);
+    text-align: left;
     margin-bottom: 40px;
     font-size: 35;
     padding: 11;
-    width: 70%;
-    border-radius: 40px;
+    width: 100%;
+    border-bottom-style: dotted;
+    border-bottom-width: 10px;
+    border-color: rgb(44, 102, 179);
 }
 
 .resume_item_1
