@@ -15,7 +15,6 @@
     function navbarController() {
         //TODO: put border around active tab
         var ctrl = this;
-        ctrl.resume = "active";
 
         ctrl.$init = function () {
             ctrl.aboutMe = "inactive";
