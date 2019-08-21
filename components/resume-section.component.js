@@ -15,7 +15,7 @@
 
     function resumeSectionController($http) {
         var ctrl = this;
-        ctrl.resume_item_style = "resume_item";
+        
 
         ctrl.$onInit = function () {
             ctrl.jsonFileName = "";
@@ -24,14 +24,17 @@
                 case "experience":
                     ctrl.jsonFileName = 'experience.json';
                     ctrl.sectionName = 'Experience';
+                    ctrl.resume_item_style = "resume_item_1";
                     break;
                 case "education":
                     ctrl.jsonFileName = 'education.json';
                     ctrl.sectionName = 'Education';
+                    ctrl.resume_item_style = "resume_item_2";
                     break;
                 case "projects":
                     ctrl.jsonFileName = 'projects.json';
                     ctrl.sectionName = 'Projects';
+                    ctrl.resume_item_style = "resume_item_3";
                     break;
                 default:
                     break;
