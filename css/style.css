@@ -200,9 +200,38 @@ h1
   }
 
 /*----------- RESUME -------------*/
-.resume_header
+.resume_header_1
 {
-    margin: 0 auto;
+    text-align: center;
+    background-color: darkcyan;
+    margin-bottom: 40px;
+    font-size: 35;
+    padding: 11;
+    width: 70%;
+    border-radius: 40px;
+}
+
+.resume_header_2
+{
+    float: right;
+    text-align: center;
+    background-color: rgb(76, 146, 49);
+    margin-bottom: 40px;
+    font-size: 35;
+    padding: 11;
+    width: 70%;
+    border-radius: 40px;
+}
+
+.resume_header_3
+{
+    text-align: center;
+    background-color: rgb(44, 102, 179);
+    margin-bottom: 40px;
+    font-size: 35;
+    padding: 11;
+    width: 70%;
+    border-radius: 40px;
 }
 
 .resume_item_1

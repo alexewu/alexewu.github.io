@@ -21,20 +21,23 @@
             ctrl.jsonFileName = "";
             switch(ctrl.section)
             {
-                case "experience":
-                    ctrl.jsonFileName = 'experience.json';
-                    ctrl.sectionName = 'Experience';
-                    ctrl.resume_item_style = "resume_item_1";
-                    break;
                 case "education":
                     ctrl.jsonFileName = 'education.json';
                     ctrl.sectionName = 'Education';
+                    ctrl.resume_item_style = "resume_item_1";
+                    ctrl.resume_header_style = "resume_header_1";
+                    break;
+                case "experience":
+                    ctrl.jsonFileName = 'experience.json';
+                    ctrl.sectionName = 'Experience';
                     ctrl.resume_item_style = "resume_item_2";
+                    ctrl.resume_header_style = "resume_header_2";
                     break;
                 case "projects":
                     ctrl.jsonFileName = 'projects.json';
                     ctrl.sectionName = 'Projects';
                     ctrl.resume_item_style = "resume_item_3";
+                    ctrl.resume_header_style = "resume_header_3";
                     break;
                 default:
                     break;
