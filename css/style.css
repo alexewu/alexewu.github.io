@@ -206,6 +206,7 @@ h1
     margin-bottom: 40px;
     font-size: 35;
     padding: 11;
+    padding-left: 70px;
     width: 100%;
     border-bottom-style: dotted;
     border-bottom-width: 10px;
@@ -214,10 +215,11 @@ h1
 
 .resume_header_2
 {
-    text-align: right;
+    text-align: left;
     margin-bottom: 40px;
     font-size: 35;
     padding: 11;
+    padding-left: 70px;
     width: 100%;
     border-bottom-style: dotted;
     border-bottom-width: 10px;
@@ -230,6 +232,7 @@ h1
     margin-bottom: 40px;
     font-size: 35;
     padding: 11;
+    padding-left: 70px;
     width: 100%;
     border-bottom-style: dotted;
     border-bottom-width: 10px;
@@ -246,18 +249,20 @@ h1
     border-top-width: 8px;
     padding-left: 50px;
     margin-bottom: 70px;
+    margin-left: 260px;
 }
 
 .resume_item_2
 {
     width: 60%;
-    float: right;
+    float: left;
     background-color: #f2f2f2;
     border-top: #a9dfa4;
     border-top-style: solid;
     border-top-width: 8px;
     padding-left: 50px;
     margin-bottom: 70px;
+    margin-left: 260px;
 }
 
 .resume_item_3
@@ -270,6 +275,7 @@ h1
     border-top-width: 8px;
     padding-left: 50px;
     margin-bottom: 70px;
+    margin-left: 260px;
 }
 
 .resume_section
