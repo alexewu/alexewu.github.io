@@ -3,7 +3,7 @@
     var app = angular.module("personalWebsite");
 
     app.component('projectButtons', {
-        templateUrl: 'components/projectButtons.html',
+        templateUrl: 'components/project-buttons.html',
         controller: 'projectButtonsController'
     });
 
