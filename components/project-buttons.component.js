@@ -11,9 +11,12 @@
 
     function projectButtonsController() {
         var ctrl = this;
-
+        ctrl.clincShow = false;
+        ctrl.lazShow = false;
+        ctrl.twitterShow = false;
+        ctrl.mdpShow = false;
+        ctrl.stoodyShow = false;
         
-
         ctrl.clincPressed = function () {
             ctrl.clincShow = true;
             ctrl.lazShow = false;
@@ -47,7 +50,7 @@
         }
 
         ctrl.stoodyPressed = function () {
-            ctrl.clincShow = true;
+            ctrl.clincShow = false;
             ctrl.lazShow = false;
             ctrl.twitterShow = false;
             ctrl.mdpShow = false;
