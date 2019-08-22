@@ -1,10 +1,9 @@
 <div class="project_circles">
-        <button ng-click="$ctrl.clincPressed()">click me</button>
         <img ng-click="$ctrl.clincPressed()" class="project_pic" src="images/clinc.png">
-        <img class="project_pic" src="images/laz.png">
-        <img class="project_pic" src="images/twitter_logo.jpg">
-        <img class="project_pic" src="images/mdp.png">
-        <img class="project_pic" src="images/stoody.png">
+        <img ng-click="$ctrl.lazPressed()" class="project_pic" src="images/laz.png">
+        <img ng-click="$ctrl.twitterPressed()" class="project_pic" src="images/twitter_logo.jpg">
+        <img ng-click="$ctrl.mdpPressed()" class="project_pic" src="images/mdp.png">
+        <img ng-click="$ctrl.stoodyPressed()" class="project_pic" src="images/stoody.png">
 
         <p ng-show="{{$ctrl.clincShow}}">clinc description</p>
         <p ng-show="{{$ctrl.lazShow}}">laz description</p>
