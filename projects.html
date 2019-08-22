@@ -6,17 +6,10 @@
         <script type="text/javascript" src="js/angular.min.js"></script>
         <script type="text/javascript" src="personalWebsite.module.js"></script>
         <script type="text/javascript" src="components/navbar.component.js"></script>
+        <script type="text/javascript" src="components/project-buttons.component.js"></script>
     </head>
     <body ng-app="personalWebsite">
         <navbar active="projects"></navbar>
-        <div class="project_circles">
-                <a href="https://www.w3schools.com">
-                <img class="project_pic" src="images/clinc.png">
-                </a>
-                <img class="project_pic" src="images/laz.png">
-                <img class="project_pic" src="images/twitter_logo.jpg">
-                <img class="project_pic" src="images/mdp.png">
-                <img class="project_pic" src="images/stoody.png">
-        </div>
+        <project-buttons></project-buttons>
     </body>
 </html>
