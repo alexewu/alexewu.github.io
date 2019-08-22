@@ -1,0 +1,75 @@
+{
+    "education":[
+        {
+            "title": "University of Michigan",
+            "location": "Ann Arbor, MI",
+            "date": "Sept 2017 – Dec 2020",
+            "position": "Bachelor’s Degree in Computer Engineering and Minor in Ross School of Business",
+            "item_1": "Relevant Coursework: Embedded Systems, Signal and Systems, Conversational AI, Computer Organization, Data Structures & Algorithms, Electrical Circuits, Logic Design"
+        },
+        {
+            "title": "Shanghai Jiao Tong University – Joint Institute",
+            "location": "Shanghai, China",
+            "date": "May 2018 – Aug 2018",
+            "position": "Study Abroad"
+        }
+    ],
+    "eperience": [
+        {
+            "title": "Learning A-Z",
+            "location": "Ann Arbor, MI",
+            "date": "May 2019 – Aug 2019",
+            "position": "Software Engineering Intern",
+            "num_items": 4,
+            "item_1": "Developed a student login system feature with QR codes using AngularJS, PHP and MySQL",
+            "item_2": "Strengthened ability to write clean code by exchanging constructive code reviews with other interns",
+            "item_3": "Presented to company employees/PMs on experience contributing to an open source project, Oppia",
+            "item_4": "Isolated intern feature using LEMP stack on Digital Ocean – see it on alexwudemo.com"
+        },
+        {
+            "title": "Lurie Nanofabrication Center",
+            "location": "Ann Arbor, MI",
+            "date": "Sept 2017 – Sept 2018",
+            "position": "Laboratory Assistant",
+            "num_items": 3,
+            "item_1": "Maintained Parylene deposition tool in order to provide lab users satisfactory results in their processes",
+            "item_2": "Improved outdated furnace documentation system, allowing for easy access to crucial data",
+            "item_3": "Collaborated with staff members in running the lab with tasks such as stocking and store management"
+        },
+        {
+            "title": "WAFR Becoming A Robot Guru 2018 Workshop",
+            "location": "Remote Videocast",
+            "date": "Dec 2018",
+            "position": "Laboratory Assistant",
+            "num_items": 2,
+            "item_1": "Learned from graduate mentors and field experts about building a career in Robotics",
+            "item_2": "Explored strategies to overcome challenges such as AI / movement patterns / path finding"
+        }
+    ],
+    "projects": [
+        {
+            "title": "Multidisciplinary Project – Learning A-Z",
+            "location": "Ann Arbor, MI",
+            "date": "Jan 2019 – Dec 2019",
+            "num_items": 3,
+            "item_1": "Developed an automatic speech-to-text assessment tool to aid teachers in improving elementary literacy",
+            "item_2": "Updated teacher-facing side of project to effectively display results of student recordings",
+            "item_3": "Coordinated with UX students in programming and designing an effective report of assessment results"
+        },
+        {
+            "title": "Emergency Response Tweet Classification – Girls Encoded Research",
+            "location": "Ann Arbor, MI",
+            "date": "Jan 2019 – May 2019",
+            "num_items": 2,
+            "item_1": "Researched NLP methods under Dr. Kummerfeld in order to classify Twitter emergency response posts",
+            "item_2": "Applied text classifiers and processing pipelines supplied by the Python library spaCy in labeling tweets with level of urgency and associated disaster event"
+        },
+        {
+            "title": "Stoody – MHacks11",
+            "num_items": 3,
+            "item_1": "Developed front/back end to create study location sharing app for college students using React Native",
+            "item_2": "Designed app by researching UX principles, resulting in a simplistic and intuitive interaction for users",
+            "item_3": "Streamlined workflow by researching into use of git and thus making a git cheat sheet for team members"
+        }
+    ]
+}

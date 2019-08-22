@@ -14,42 +14,30 @@
         
         ctrl.clincPressed = function () {
             ctrl.clincShow = true;
-            ctrl.lazShow = false;
-            ctrl.twitterShow = false;
-            ctrl.mdpShow = false;
-            ctrl.stoodyShow = false;
         }
 
         ctrl.lazPressed = function () {
-            ctrl.clincShow = false;
             ctrl.lazShow = true;
-            ctrl.twitterShow = false;
-            ctrl.mdpShow = false;
-            ctrl.stoodyShow = false;
         }
 
         ctrl.twitterPressed = function () {
-            ctrl.clincShow = false;
-            ctrl.lazShow = false;
             ctrl.twitterShow = true;
-            ctrl.mdpShow = false;
-            ctrl.stoodyShow = false;
         }
 
         ctrl.mdpPressed = function () {
-            ctrl.clincShow = false;
-            ctrl.lazShow = false;
-            ctrl.twitterShow = false;
             ctrl.mdpShow = true;
-            ctrl.stoodyShow = false;
         }
 
         ctrl.stoodyPressed = function () {
+            ctrl.stoodyShow = true;
+        }
+
+        function setShowsToFalse() {
             ctrl.clincShow = false;
             ctrl.lazShow = false;
             ctrl.twitterShow = false;
             ctrl.mdpShow = false;
-            ctrl.stoodyShow = true;
+            ctrl.stoodyShow = false;
         }
     }
 })();

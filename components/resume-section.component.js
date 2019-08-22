@@ -16,25 +16,29 @@
     function resumeSectionController($http) {
         var ctrl = this;
         
+        $http.get('resume.json')
+                .then(function(response) {
+                    ctrl.resume = response.data;
+                });
 
         ctrl.$onInit = function () {
             ctrl.jsonFileName = "";
             switch(ctrl.section)
             {
                 case "education":
-                    ctrl.jsonFileName = 'education.json';
+                    ctrl.items = ctrl.resume.education;
                     ctrl.sectionName = 'Education';
                     ctrl.resume_item_style = "resume_item_1";
                     ctrl.resume_header_style = "resume_header_1";
                     break;
                 case "experience":
-                    ctrl.jsonFileName = 'experience.json';
+                    ctrl.items = ctrl.resume.experience;
                     ctrl.sectionName = 'Experience';
                     ctrl.resume_item_style = "resume_item_2";
                     ctrl.resume_header_style = "resume_header_2";
                     break;
                 case "projects":
-                    ctrl.jsonFileName = 'projects.json';
+                    ctrl.items = ctrl.resume.projects;
                     ctrl.sectionName = 'Projects';
                     ctrl.resume_item_style = "resume_item_3";
                     ctrl.resume_header_style = "resume_header_3";
@@ -43,10 +47,7 @@
                     break;
             }
             
-            $http.get(ctrl.jsonFileName)
-                .then(function(response) {
-                    ctrl.items = response.data;
-                });
+            
         }
        
 
