@@ -1,5 +1,5 @@
 <div class="project_circles">
-        <a ng-onClick="$ctrl.clincPressed">
+        <a ng-click="$ctrl.clincPressed">
                 <img class="project_pic" src="images/clinc.png">
         </a>
         <img class="project_pic" src="images/laz.png">
@@ -7,9 +7,9 @@
         <img class="project_pic" src="images/mdp.png">
         <img class="project_pic" src="images/stoody.png">
 
-        <p>clinc description</p>
-        <p>laz description</p>
-        <p>twitter description</p>
-        <p>mdp description</p>
-        <p>stoody description</p>
+        <p ng-show="{{$ctrl.clincShow}}">clinc description</p>
+        <p ng-show="{{$ctrl.lazShow}}">laz description</p>
+        <p ng-show="{{$ctrl.twitterShow}}">twitter description</p>
+        <p ng-show="{{$ctrl.mdpShow}}">mdp description</p>
+        <p ng-show="{{$ctrl.stoodyShow}}">stoody description</p>
 </div>

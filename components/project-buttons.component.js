@@ -12,6 +12,9 @@
     function projectButtonsController() {
         var ctrl = this;
 
+        ctrl.clincShow = true;
+        ctrl.lazShow = false;
+
         ctrl.clincPressed = function () {
             console.log("you pressed clinc");
         }
