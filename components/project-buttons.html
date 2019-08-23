@@ -7,25 +7,46 @@
 
 
         <!-- Melody Description -->
-        <h3>EECS 498 - Conversation AI Project: Melody</h3>
-        <p> 
-                Conversation AI is a major design experience class in which students build a conversational AI assistant using Clinc's 
-                platform. My team decided to create a conversational assistant for Spotify called Melody. Melody can do basic music 
-                controls such as play, pause, skip, and next/previous. Clinc's platform is built modeling a state machine, giving them
-                the distinction from other platforms such as Alexa in that the interaction with the agent is more conversational. In
-                order to really take advantage of this feature, we decided to make Melody also recommend songs based on criteria given by
-                the user, imitating the experience of interacting with a record store owner.
-        </p>
+        <div ng-if="$ctrl.clincShow">
+                <h3 class="project_title">EECS 498 - Conversation AI Project: Melody</h3>
+                <p class="project_description"> 
+                        Conversation AI is a major design experience class in which students build a conversational AI assistant using Clinc's 
+                        platform. My team decided to create a conversational assistant for Spotify called Melody. Melody can do basic music 
+                        controls such as play, pause, skip, and next/previous. Clinc's platform is built modeling a state machine, giving them
+                        the distinction from other platforms such as Alexa in that the interaction with the agent is more conversational. In
+                        order to really take advantage of this feature, we decided to make Melody also recommend songs based on criteria given by
+                        the user, imitating the experience of interacting with a record store owner.
+                </p>
 
-        <p>
-                Built using: Clinc, Spotify API, Python
-        </p>
-        <a href="https://github.com/alexewu">
-                <img class="propic" src="images/github_icon.svg">
-        </a>
+                <p>
+                        Built using: Clinc, Spotify API, Python
+                </p>
+                <a href="https://github.com/alexewu">
+                        <img class="github_icon" src="images/github_icon.svg">
+                </a>   
+        </div>
+        
 
         <!-- LAZ Description -->
+        <div ng-if="$ctrl.lazShow">
+                <h3 class="project_title">Learning A-Z - QR Student Login Isolated Feature</h3>
+                <p class="project_description"> 
+                        During my internship at Learning A-Z, I was given the task of creating a new method of logging in for students using Raz-Kids. Previously, they only had the option of entering a text password or clicking on an icon as a password, but with this feature they can also scan QR codes. QR codes can make logging in easier for kids who don't know how to type, and also make logging in faster. All they need to do is hold the QR code up to the camera. The project here is an isolation of my feature from the LAZ codebase, and only encompasses the main idea of the feature: logging in. Much of this code is unused in the demo site, but is used in the actual feature.
+                </p>
 
+                <p>
+                        Built using: Digital Ocean, LEMP Stack (Linux, Nginx, MySQL, PHP), AngularJS
+                </p>
+                <div>
+                        <a href="https://github.com/alexewu/laz-intern-feature">
+                                <img class="github_icon" src="images/github_icon.svg">
+                        </a>
+                        <a href="www.alexwudemo.com">
+                                <img class="github_icon" src="images/website.png">
+                        </a>  
+                </div>
+                
+        </div>
         <!-- Twitter Classifier Description -->
 
         <!-- MDP Speech-to-Text Description -->

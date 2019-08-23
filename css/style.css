@@ -297,6 +297,22 @@ h1
     border-radius: 50%;
 }
 
+.project_title
+{
+    font-size: 28px;
+    color: #363533;
+}
+
+.project_description
+{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    font-size: 15;
+    font-family: futura;
+    color: #363533;
+}
+
 .project_circles
 {
     text-align: center;
@@ -308,3 +324,7 @@ h1
     transition: 0.5s ease;
 }
   
+.github_icon
+{
+    width: 30px;
+}
