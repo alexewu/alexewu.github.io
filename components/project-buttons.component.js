@@ -13,22 +13,27 @@
         var ctrl = this;
         
         ctrl.clincPressed = function () {
+            setShowsToFalse();
             ctrl.clincShow = true;
         }
 
         ctrl.lazPressed = function () {
+            setShowsToFalse();
             ctrl.lazShow = true;
         }
 
         ctrl.twitterPressed = function () {
+            setShowsToFalse();
             ctrl.twitterShow = true;
         }
 
         ctrl.mdpPressed = function () {
+            setShowsToFalse();
             ctrl.mdpShow = true;
         }
 
         ctrl.stoodyPressed = function () {
+            setShowsToFalse();
             ctrl.stoodyShow = true;
         }
 
