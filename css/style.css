@@ -144,6 +144,17 @@ h1
     margin: 0 auto;
 }
 
+.about_me_description
+{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    font-size: 15;
+    font-family: futura;
+    color: #363533;
+    margin-top: 40px;
+}
+
 /*----------- CONTACT -------------*/
 .contact_form
 {
