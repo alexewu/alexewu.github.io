@@ -71,11 +71,6 @@ h1
     text-transform: uppercase;
 }
 
-.btn-two:hover{
-    background-color: lightcoral;
-    transition: all 0.5s ease-in;
-}
-
 .row
 {
     font-family: monospace;
@@ -117,10 +112,20 @@ h1
     width: 140px;
 }
 
+.pink-btn:hover{
+    background-color: white;
+    transition: all 0.5s ease-in;
+}
+
 .white-btn
 {
     font-family: "Futura", sans-serif;
     width: 100px;
+}
+
+.white-btn:hover{
+    border: 4px solid black;
+    transition: all 0.5s ease-in;
 }
 
 .main_btns
@@ -130,6 +135,7 @@ h1
     justify-content: center;
     text-align: center;
     margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .my_name_is_alex
