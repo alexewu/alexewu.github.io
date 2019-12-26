@@ -1,3 +1,9 @@
+/* ------GENERAL------ */
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
 /* ------NAVIGATION BAR------ */
 .main-nav
 {
@@ -5,7 +11,7 @@
     text-align: center;
     list-style: none;
     margin-top: 30px;
-    margin-bottom: 90px;
+    margin-bottom: 30px;
 }
 
 .main-nav li
@@ -36,6 +42,7 @@
     right: 0;
     left: 0;
     z-index: 999;
+    background: white;
 }
 
 
