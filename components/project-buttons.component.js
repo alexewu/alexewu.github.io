@@ -37,12 +37,18 @@
             ctrl.stoodyShow = true;
         }
 
+        ctrl.paintPressed = function () {
+            setShowsToFalse();
+            ctrl.paintShow = true;
+        }
+
         function setShowsToFalse() {
             ctrl.clincShow = false;
             ctrl.lazShow = false;
             ctrl.twitterShow = false;
             ctrl.mdpShow = false;
             ctrl.stoodyShow = false;
+            ctrl.paintShow = false;
         }
     }
 })();

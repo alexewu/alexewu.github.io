@@ -7,6 +7,16 @@
         <script type="text/javascript" src="personalWebsite.module.js"></script>
         <script type="text/javascript" src="components/navbar.component.js"></script>
         <script type="text/javascript" src="components/project-buttons.component.js"></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154977516-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-154977516-1');
+        </script>
+
     </head>
     <body ng-app="personalWebsite">
         <navbar active="projects"></navbar>
