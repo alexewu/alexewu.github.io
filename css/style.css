@@ -42,8 +42,7 @@ body {
     right: 0;
     left: 0;
     z-index: 999;
-    background: white;
-    border-bottom: solid;
+    background: #f0f0f0;
     border-width: 3px;
     margin-bottom: 0;
 
@@ -150,7 +149,7 @@ h1
     flex-direction: row;
     justify-content: center;
     text-align: center;
-    margin-top: 40px;
+    padding-top: 170;
     margin-bottom: 40px;
 }
 
@@ -351,6 +350,7 @@ h1
 
 .project_circles
 {
+    padding-top: 170;
     text-align: center;
 }
 
