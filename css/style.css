@@ -390,6 +390,12 @@ h3
 
 }
 
+.hobby_image
+{
+    width: 500;
+
+}
+
 .rotateimg90 {
     -webkit-transform:rotate(90deg);
     -moz-transform: rotate(90deg);
