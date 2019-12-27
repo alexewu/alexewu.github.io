@@ -371,10 +371,17 @@ h3
     width: 110px;
 }
 
+.contact_me
+{
+    padding-top: 150;
+}
+
 /*----------- HOBBIES -------------*/
 .music_header
 {
-    padding: 150;
+    padding-top: 150;
+    padding-bottom: 30;
+    font-size: 20;
 }
 
 .spotify_player
