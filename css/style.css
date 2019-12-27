@@ -89,6 +89,7 @@ h3
     margin-right: 5px;
     font-size: 13px;
     text-transform: uppercase;
+    box-sizing: unset;
 }
 
 .row_navbar
