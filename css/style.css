@@ -91,7 +91,7 @@ h3
     text-transform: uppercase;
 }
 
-.row
+.row_navbar
 {
     font-family: monospace;
     margin: auto;
@@ -392,8 +392,7 @@ h3
 
 .hobby_image
 {
-    width: 500;
-
+    width: 100%;
 }
 
 .rotateimg90 {
@@ -407,16 +406,6 @@ h3
 /*----------- IMAGE BOARD *credit to W3Schools* -------------*/
 * {
     box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-    font-family: Arial;
-}
-
-.header {
-    text-align: center;
-    padding: 32px;
 }
 
 .row {
