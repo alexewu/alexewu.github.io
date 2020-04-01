@@ -1,43 +1,83 @@
 <?php include("includes.html"); ?>
-<html>
-    <head>
-        <title> Hello, I'm Alex.</title>
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-        <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-        <script type="text/javascript" src="js/angular.min.js"></script>
-        <script type="text/javascript" src="personalWebsite.module.js"></script>
-        <script type="text/javascript" src="components/navbar.component.js"></script>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154977516-1"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
 
-            gtag('config', 'UA-154977516-1');
-        </script>
-    </head>
-    <body ng-app="personalWebsite">
+<!DOCTYPE html>
+<html lang="en">
 
-        <navbar active="aboutMe"></navbar>
+<head>
+    <title> Hello, I'm Alex.</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/angular.min.js"></script>
+    <script type="text/javascript" src="personalWebsite.module.js"></script>
+    <script type="text/javascript" src="components/navbar.component.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154977516-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-        <div class="content">
+        gtag('config', 'UA-154977516-1');
+    </script>
+    <meta http-equiv="content-type" content="text/html">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- fontawesome ––––––––––––––––––––––––––– -->
+    <script src="https://kit.fontawesome.com/5c9f2dfb26.js"></script>
+    <!-- To add a google font and paste the link -->
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+</head>
 
-            <img class="my_name_is_alex" src="images/hello i'm alex.svg">
-            <img class="propic" src="images/propic.jpg">
- 
-            <p class="about_me_description"> 
-                Welcome to my personal website! I'm a student at the University of Michigan who's currently trying to earn a degree 
-                in Computer Engineering. This website was created to nicely present all the cool engineering-related things I've done, 
-                all done during my time at U-M.
-                This website itself is a project I'm continually developing (some things may be in construction!) and the one you see now is built using AngularJS. All the
-                styling is done with my limited knowledge in design and unlimited interest in web development.
-            </p>
 
-            <a href="https://github.com/alexewu">
-                <img class="github_icon" src="images/github_icon.svg">
-            </a>  
 
+<body ng-app="personalWebsite">
+
+    <navbar active="aboutMe"></navbar>
+
+    <!--    main contents start from here. use container or container-fluid-->
+    <div class="container"></div>
+    <div class="view">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-sm-2">
+                <img class="img-fluid propic" src="images/propic.jpg" alt="profile_pic"/>
+            </div>
+            <div class="col-sm-6">
+                <img class="img-fluid logo" src="images/logo.png" alt="logo"/>
+                <div class="all_about_me">
+                    <p class="about_me">
+                        I am a computer engineering student at the University of Michigan.
+                    </p>
+                    <p class="about_me">
+                        I am also a photographer, lettering fanatic, and guinea pig lover.
+                    </p>
+                        
+                    <p class="about_me">
+                        This website was created to nicely represent all the cool things I've done professionally
+                        and who I am beyond being a student. This website iteself is a project I am continually 
+                        developing (some things may be in construction!) and the one you see now is powered
+                        using AngularJS.
+                </p>
+                </div>
+            </div>
         </div>
-    </body>
+
+    </div>
+        
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+</body>
+
 </html>

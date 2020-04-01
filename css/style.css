@@ -21,7 +21,7 @@ body {
 
 .main-nav li a
 {
-    color: firebrick;
+    color: #95ADAF;
     text-decoration: none;
     padding: 5px 20px;
     font-family: "Futura", sans-serif;
@@ -99,16 +99,16 @@ h3
 }
 
 /*--------Index.html styling--------*/
-.logo img
+/* .logo img
 {
     width: 350px;
     display:block;
     margin-left: auto;
     margin-right: auto;
     margin-top: -30px;
-}
+} */
 
-.propic
+/* .propic
 {
     width: 280px;
     height: 280px;
@@ -116,6 +116,32 @@ h3
     margin-bottom: 50px;
     margin: 0 auto;
     border-radius: 50%;
+} */
+.propic
+{
+    width: 240px;
+    height: 240px;
+    margin-top: 110px;
+    border-radius: 50%;
+    border:6px solid #036570;
+    /* background-color: #e6e6e6; */
+}
+
+.logo
+{
+    margin-top: 300px;
+}
+
+.all_about_me
+{
+    color: #95ADAF;
+    margin-top: 10px;
+    font-size: 23px;
+}
+
+.view{
+    background: url(../images/background.jpg) center center no-repeat;
+    background-size: cover;
 }
 
 .content
