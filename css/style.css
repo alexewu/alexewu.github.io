@@ -50,14 +50,9 @@ body {
 
 
 /* ------TEXT------ */
-body {
-    background-color: white;
-    /*    body font*/
-    font-family: futura;
-    /*    font-weight: 700;*/
-    /*    line-height is 150% of the font size*/
-    line-height: 1.5;
-    color: rgb(0, 0, 0);
+body
+{
+    font-family: monospace;
 }
 
 h1
@@ -142,7 +137,6 @@ h3
     color: #95ADAF;
     margin-top: 10px;
     font-size: 23px;
-    font-family: futura;
 }
 
 .view{
