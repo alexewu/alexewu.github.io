@@ -6,6 +6,21 @@
         <img ng-click="$ctrl.stoodyPressed()" class="project_pic" src="images/stoody.png">
         <img ng-click="$ctrl.paintPressed()" class="project_pic" src="images/MS-Paint-Icon.png">
 
+        <div class="container">
+		<h2 class="text-center">Portfolio</h2>
+		<div class="row">
+			<div class="col-sm-4">
+				<a href="#" class="portfolio-link" data-toggle="modal" data-target="#portfolioModal1"><img class="img-fluid" src="img/photo1.JPG" alt="design"></a>			
+				<h4 class="text-center">title</h4>
+			</div>
+			
+			<div class="col-sm-4">
+				<a href="#" class="portfolio-link" data-toggle="modal" data-target="#portfolioModal2"><img class="img-fluid" src="img/photo2.JPG" alt="design"></a>	
+				<h4 class="text-center">title</h4>
+			</div>			
+		</div>
+        </div>
+
         <!-- Melody Description -->
         <div ng-if="$ctrl.clincShow">
                 <h3 class="project_title">EECS 498 - Conversational AI Project: Melody</h3>
