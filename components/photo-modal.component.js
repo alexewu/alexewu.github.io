@@ -6,7 +6,10 @@
         templateUrl: 'components/photo-modal.html',
         controller: 'photoModalController',
         bindings: {
-            file: "@"
+            file: "@",
+            number: "@",
+            title: "@",
+            description: "@"
         }
     });
 
@@ -14,6 +17,7 @@
 
     function photoModalController() {
         var ctrl = this;
+        ctrl.id = 'portfolioModal' + ctrl.number;
         
     }
 })();

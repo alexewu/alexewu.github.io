@@ -16,6 +16,5 @@
     function photoThumbnailController() {
         var ctrl = this;
         ctrl.dataTarget = '#portfolioModal' + ctrl.number;
-        
     }
 })();
