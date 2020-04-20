@@ -10,6 +10,7 @@
     <script type="text/javascript" src="js/angular.min.js"></script>
     <script type="text/javascript" src="personalWebsite.module.js"></script>
     <script type="text/javascript" src="components/navbar.component.js"></script>
+    <script type="text/javascript" src="components/photo-modal.component.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154977516-1"></script>
     <script>
@@ -73,65 +74,8 @@
 		<img class="img-fluid page_title center-block" src="images/photography.png" alt="photography"/>
         
         <div class="row">
-			<div class="col-sm-4">
-				<a href="#" class="portfolio-link" data-toggle="modal" data-target="#portfolioModal1"><img class="img-fluid thumbnail" src="images/photo1.JPG" alt="design"></a>	
-            </div>
-			
-			<div class="col-sm-4">
-				<a href="#" class="portfolio-link" data-toggle="modal" data-target="#portfolioModal2"><img class="img-fluid thumbnail" src="images/photo2.JPG" alt="design"></a>	
-            </div>		
-            
-            <div class="col-sm-4">
-				<a href="#" class="portfolio-link" data-toggle="modal" data-target="#portfolioModal3"><img class="img-fluid thumbnail" src="images/photo3.JPG" alt="design"></a>	
-            </div>
-
-            <div class="col-sm-4">
-				<a href="#" class="portfolio-link" data-toggle="modal" data-target="#portfolioModal4"><img class="img-fluid thumbnail" src="images/photo4.JPG" alt="design"></a>	
-            </div>
-
-            <div class="col-sm-4">
-				<a href="#" class="portfolio-link" data-toggle="modal" data-target="#portfolioModal5"><img class="img-fluid thumbnail" src="images/photo5.JPG" alt="design"></a>			
-            </div>
-            
-            <div class="col-sm-4">
-				<a href="#" class="portfolio-link" data-toggle="modal" data-target="#portfolioModal5"><img class="img-fluid thumbnail" src="images/photo6.JPG" alt="design"></a>			
-            </div>
-            
-            <div class="col-sm-4">
-				<a href="#" class="portfolio-link" data-toggle="modal" data-target="#portfolioModal5"><img class="img-fluid thumbnail" src="images/photo7.JPG" alt="design"></a>			
-            </div>
-
-            <div class="col-sm-4">
-				<a href="#" class="portfolio-link" data-toggle="modal" data-target="#portfolioModal5"><img class="img-fluid thumbnail" src="images/photo8.JPG" alt="design"></a>			
-            </div>
-            
-            <div class="col-sm-4">
-				<a href="#" class="portfolio-link" data-toggle="modal" data-target="#portfolioModal5"><img class="img-fluid thumbnail" src="images/photo9.JPG" alt="design"></a>			
-            </div>
-            
-            <div class="col-sm-4">
-				<a href="#" class="portfolio-link" data-toggle="modal" data-target="#portfolioModal5"><img class="img-fluid thumbnail" src="images/photo10.JPG" alt="design"></a>			
-            </div>
-            
-            <div class="col-sm-4">
-				<a href="#" class="portfolio-link" data-toggle="modal" data-target="#portfolioModal5"><img class="img-fluid thumbnail" src="images/photo11.JPG" alt="design"></a>			
-            </div>
-            
-            <div class="col-sm-4">
-				<a href="#" class="portfolio-link" data-toggle="modal" data-target="#portfolioModal5"><img class="img-fluid thumbnail" src="images/photo12.JPG" alt="design"></a>			
-            </div>
-            
-            <div class="col-sm-4">
-				<a href="#" class="portfolio-link" data-toggle="modal" data-target="#portfolioModal5"><img class="img-fluid thumbnail" src="images/photo13.JPG" alt="design"></a>			
-            </div>
-            
-            <div class="col-sm-4">
-				<a href="#" class="portfolio-link" data-toggle="modal" data-target="#portfolioModal5"><img class="img-fluid thumbnail" src="images/photo14.JPG" alt="design"></a>			
-            </div>
-            
-            <div class="col-sm-4">
-				<a href="#" class="portfolio-link" data-toggle="modal" data-target="#portfolioModal5"><img class="img-fluid thumbnail" src="images/photo15.JPG" alt="design"></a>			
-			</div>
+            <photo-thumbnail file="images/photo1.JPG" number="1"></photo-thumbnail>
+            <photo-thumbnail file="images/photo2.JPG" number="2"></photo-thumbnail>
         </div>
         
     </div>
@@ -148,3 +92,6 @@
 </body>
 
 </html>
+
+<photo-modal file="images/photo1.JPG" number="1"></photo-modal>
+<photo-modal file="images/photo2.JPG" number="2"></photo-modal>
