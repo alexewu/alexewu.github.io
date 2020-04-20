@@ -15,7 +15,6 @@
 
     function photoThumbnailController() {
         var ctrl = this;
-        ctrl.file =; //how to get the filename
         ctrl.dataTarget = '#portfolioModal' + ctrl.number;
         
     }
