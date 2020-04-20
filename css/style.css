@@ -480,3 +480,106 @@ h3
         max-width: 100%;
     }
 }
+
+/* ==============PHOTO GALLERY==================== */
+
+/*Portfolio thumbnails*/
+.portfolio-link img:hover {
+    
+}
+
+/*portfolio modal*/
+.portfolio-modal .modal-body {
+    position: static;
+}
+
+.portfolio-modal{
+    overflow: auto;
+}
+
+/*modal box size*/
+.portfolio-modal .modal-dialog {
+/*    Full screen style*/
+    max-width: 100%;
+    max-height: 100%;
+    width:100%;
+    height:100%;
+    margin: 0 auto;
+}
+
+/*content area*/
+.portfolio-modal .modal-content {
+    /*the paragraph font color*/
+    color: #746f6f;
+    padding: 0 0 2rem 0;
+/*    min-height: 100%;*/
+    border: 0;
+    border-radius: 0;
+    text-align: center;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    /*the background-color*/
+    background-color: white;
+}
+
+/*project title*/
+.portfolio-modal .modal-content h2 {
+    font-family: "Futura", sans-serif;
+    color: #95ADAF;
+    font-weight: 100;
+}
+
+
+/*bottom of the modal box including prev, next, back to work*/
+.portfolio-modal .modal-footer {
+    border: none;
+}
+
+
+/*the X close icon*/
+.portfolio-modal .modal-header .close {
+
+}
+
+.portfolio-modal .modal-header {
+    border-bottom: none;
+}
+
+.portfolio-modal .modal-backdrop {
+    display: none;
+    opacity: 0;
+}
+
+/*modal box prev, next and back to work link color*/
+.portfolio-modal a.next,
+.portfolio-modal a.prev,
+.portfolio-modal a.back {
+    align-self: center;
+    font-size: 50px;
+    color: #95ADAF;
+}
+
+
+.thumbnail_title
+{
+    font-family: "Futura";
+    font-weight: 100;
+    color: #95ADAF;
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+.thumbnail
+{
+    margin-top: 50px;
+}
+
+.page_title
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 240px;
+    padding-top: 200px;
+}
