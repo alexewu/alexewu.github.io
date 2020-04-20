@@ -7,4 +7,11 @@
             <li class="{{$ctrl.contact}}"><a href="contact.html"> CONTACT </a></li>
         </ul>
     </div>
+    <div ng-if="$ctrl.showAboutMeNavBar" class="row_navbar">
+        <ul class="sub-nav">
+            <li class="{{$ctrl.aboutMe}}"><a ng-click="$ctrl.gotoPhotography()"> photography </a></li>
+            <li class="{{$ctrl.resume}}"><a ng-click="$ctrl.gotoBujo()"> bujo </a></li>
+            <li class="{{$ctrl.projects}}"><a ng-click="$ctrl.gotoPiggies()"> piggies </a></li>
+        </ul>
+    </div>
 </header>
