@@ -177,8 +177,18 @@ h3
     font-family: futura;
 }
 
-.view{
-    background: url(../images/background.jpg) center center no-repeat;
+.view_1{
+    background: url(../images/background.png) center center no-repeat;
+    background-size: cover;
+}
+
+.view_2{
+    background: url(../images/green_stroke.png) center center no-repeat;
+    background-size: cover;
+}
+
+.view_3{
+    background: url(../images/gray_stroke.png) center center no-repeat;
     background-size: cover;
 }
 
@@ -642,57 +652,32 @@ h3
     /* border: 1px green solid; */
 }
 
-/* Styles go here */
-
-.center-grey {
-    background: #f2f2f2;
-  }
-  .slider {
-    position: relative;
-    padding: 5px;
-    margin: auto;
-    margin-top: 40px;
-  }
-  .slide {
-    position: absolute;
-    top: 0;
-    left: 0;
-    box-shadow: 0px 0px 15px #999;
-  }
-  .arrows {
-    position: absolute;
-    top: 265px;
-    left: 66px;
-  }
-  
-  h1 {
-    text-align: center;
-    padding: 10px;
-    font-size: 40px;
-    color: #222;
-  }
-  .slide.ng-hide-add,
-  .slide.ng-hide-remove {
-    -webkit-transition: all linear 0.5s;
-    -moz-transition: all linear 0.5s;
-    -o-transition: all linear 0.5s;
-    transition: all linear 0.5s;
-    display: block!important;
-  }
-  .slide.ng-hide-add.ng-hide-add-active,
-  .slide.ng-hide-remove {
-    opacity: 0;
-  }
-  .slide.ng-hide-add,
-  .slide.ng-hide-remove.ng-hide-remove-active {
-    opacity: 1;
-  }
-
 
   /* FOOTER */
 .footer 
 {
-    background-color: #95ADAF;
+    background-color: #f0f0f0;
     margin-top: 200px;
-    padding-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 12px;
+}
+
+.social-icon
+{
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+.info p
+{
+    margin-bottom: 0px;
+}
+
+.info a{
+    color: #95ADAF;
+}
+
+.info a:hover{
+    color: black;
 }

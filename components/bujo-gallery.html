@@ -1,0 +1,14 @@
+<div class="bujo container" id="bujo">
+    <img class="img-fluid page_title center-block" src="images/my_bujo.png" alt="photography"/>
+    <div class="container">
+        <div class="row justify-content-center">
+            <a class="prev" href="#" ng-click="$ctrl.prev()"> <i class="fas fa-chevron-left"></i> </a>
+            <div class="col-sm-11 parent">
+                <img class="bujo_background" src="images/bujo/bujo_background.png" alt="photography"/>
+                <img class="bujo_image" src="{{$ctrl.imgSrc}}" alt="photography"/>   
+            </div>
+            <!-- <img class="col-sm-6" src="images/bujo/bujo_1.png" alt="photography"/> -->
+            <a class="next" href="#" ng-click="$ctrl.next()"> <i class="fas fa-chevron-right"></i> </a> 
+        </div>
+    </div>
+</div>
