@@ -9,9 +9,11 @@
     </div>
     <div ng-if="$ctrl.showAboutMeNavBar" class="row_navbar">
         <ul class="sub-nav">
-            <li class="{{$ctrl.aboutMe}}"><a ng-click="$ctrl.gotoPhotography()"> photography </a></li>
-            <li class="{{$ctrl.resume}}"><a ng-click="$ctrl.gotoBujo()"> bujo </a></li>
-            <li class="{{$ctrl.projects}}"><a ng-click="$ctrl.gotoPiggies()"> piggies </a></li>
+            <li class="{{$ctrl.photography}}"><a ng-click="$ctrl.gotoPhotography()""> photography </a></li>
+            <li> - </li>
+            <li class="{{$ctrl.bujo}}"><a ng-click="$ctrl.gotoBujo()"> bujo </a></li>
+            <li> - </li>
+            <li class="{{$ctrl.piggies}}"><a ng-click="$ctrl.gotoPiggies()"> piggies </a></li>
         </ul>
     </div>
 </header>

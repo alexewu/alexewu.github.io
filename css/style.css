@@ -16,11 +16,34 @@ body {
 
 .sub-nav
 {
-    border-radius: 2px;
+    border-top: 2px solid #95ADAF;
     text-align: center;
     list-style: none;
-    margin-top: 10px;
-    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 3px;
+}
+
+.sub-nav li
+{
+    display: inline-block;
+}
+
+.sub-nav li a
+{
+    color: #95ADAF;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Futura", sans-serif;
+    font-size: 12px;
+}
+
+.sub-nav li.active a
+{
+    color: #95ADAF;
+}
+
+.sub-nav li a:hover{
+    border: 1px solid black;
 }
 
 .main-nav li
@@ -579,6 +602,97 @@ h3
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 240px;
+    height: 260px;
     padding-top: 200px;
+}
+
+/* =======BUJO STYLING ========*/
+
+.bujo a.next,
+.bujo a.prev,
+.bujo a.back {
+    align-self: center;
+    font-size: 30px;
+    color: #95ADAF;
+}
+
+.parent
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    /* border: 1px black solid; */
+}
+
+.bujo_background
+{
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    /* border: 1px red solid; */
+}
+
+.bujo_image
+{
+    width: 70%;
+    position: absolute;
+    top: 40px;
+    left: 180px;
+    /* border: 1px green solid; */
+}
+
+/* Styles go here */
+
+.center-grey {
+    background: #f2f2f2;
+  }
+  .slider {
+    position: relative;
+    padding: 5px;
+    margin: auto;
+    margin-top: 40px;
+  }
+  .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 0px 15px #999;
+  }
+  .arrows {
+    position: absolute;
+    top: 265px;
+    left: 66px;
+  }
+  
+  h1 {
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+    color: #222;
+  }
+  .slide.ng-hide-add,
+  .slide.ng-hide-remove {
+    -webkit-transition: all linear 0.5s;
+    -moz-transition: all linear 0.5s;
+    -o-transition: all linear 0.5s;
+    transition: all linear 0.5s;
+    display: block!important;
+  }
+  .slide.ng-hide-add.ng-hide-add-active,
+  .slide.ng-hide-remove {
+    opacity: 0;
+  }
+  .slide.ng-hide-add,
+  .slide.ng-hide-remove.ng-hide-remove-active {
+    opacity: 1;
+  }
+
+
+  /* FOOTER */
+.footer 
+{
+    background-color: #95ADAF;
+    margin-top: 200px;
+    padding-top: 100px;
 }

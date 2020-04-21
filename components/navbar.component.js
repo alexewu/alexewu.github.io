@@ -49,16 +49,25 @@
         
         ctrl.gotoPhotography = function() {
             $location.hash('photography');
+            ctrl.photography = "active";
+            ctrl.bujo = "inactive";
+            ctrl.piggies = "inactive";
             $anchorScroll();
         };
 
         ctrl.gotoBujo = function() {
             $location.hash('bujo');
+            ctrl.bujo = "active";
+            ctrl.piggies = "inactive";
+            ctrl.photography = "inactive";
             $anchorScroll();
         };
 
         ctrl.gotoPiggies = function() {
             $location.hash('piggies');
+            ctrl.piggies = "active";
+            ctrl.photography = "inactive";
+            ctrl.bujo = "inactive";
             $anchorScroll();
         };
     }
